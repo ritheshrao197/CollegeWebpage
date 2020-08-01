@@ -233,12 +233,43 @@ h1::after {
     }
 
 /*=======*/
+#course-sec{
+  background-color: #000;
+  color: #fff;
+}
 
+  #course-sec .header-line {
+     color: #fff;
+  }
+.course-div h4 {
+  line-height:30px;
+  font-weight:700;
+}
+.course-div {
+  padding: 30px;
+}
+
+  .course-div hr {
+      border: 1px solid #040505;
+  }
+
+  .course-div h3 {
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+
+  .course-div p {
+      padding-top: 10px;
+      padding-bottom: 15px;
+  }
+
+  .course-div img {
+      border: 10px double #fff;
+  }
 /*===*/
 
-.row gallery{
-    
-}
+
 
 /*=====================================
   CONTACT STYLES 
