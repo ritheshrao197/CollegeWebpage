@@ -339,12 +339,11 @@ img {
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prev{
   cursor: pointer;
   position: absolute;
   top: 40%;
-  width: auto;
+  left: 20px;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -353,6 +352,22 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  margin-left: 20px;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: 20px;
 }
 
 /* Position the "next button" to the right */
@@ -437,5 +452,4 @@ image{
 }
 
 p.about {
-  text-align: justify;
-}
+  text-align: justify;}
